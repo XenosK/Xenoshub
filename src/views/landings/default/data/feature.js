@@ -161,40 +161,41 @@ export const feature10 = {
 };
 
 export const feature20 = {
-  heading: 'Comprehensive UI Kit Tailored to your Need',
-  caption: 'Ready to transform your SaaS designs with one powerful UI Kit?',
-  actionBtn: { children: 'Buy Now', href: BUY_NOW_URL, ...linkProps },
-  secondaryBtn: { children: 'Explore Blocks', href: SECTION_PATH },
+  heading: 'XenosHub是一家数字创新工作室',
+  caption: '我们使用数字技术和敏捷方法使世界变得更美好',
+  // actionBtn: { children: '联系我们', href: BUY_NOW_URL, ...linkProps },
+  // secondaryBtn: { children: '联系我们', href: SECTION_PATH },
+  secondaryBtn: { children: '联系我们', href: '/' },
   features: [
     {
       icon: 'tabler-accessible',
-      title: 'WCAG Compliant',
-      content: 'Ensure accessibility with WCAG compliant design for browsing.'
+      title: '数字化方案',
+      content: 'CRM、SAP、MDS、MES、自助分析数字信息化方案'
     },
     {
       icon: 'tabler-brand-google',
-      title: 'SEO Friendly',
-      content: 'Boost visibility with SEO-friendly features for better search rankings.'
+      title: '大数据系统',
+      content: '数据搬迁、大数据系统搭建、数据开发支持等'
     },
     {
       icon: 'tabler-stack-2',
-      title: 'MUI Components',
-      content: 'Customize Material 3 design MUI components for enhanced aesthetics.'
+      title: '数据采集方案',
+      content: '任何符合协议的网络数据、IOT数据、业务数据等采集方案'
     },
     {
       icon: 'tabler-rocket',
-      title: 'High Performance UI',
-      content: 'Adjust content layout for visual coherence on various screen sizes.'
+      title: '机房建设',
+      content: '网络、服务器、机柜等建设'
     },
     {
       icon: 'tabler-help',
-      title: 'Detailed Documentation',
-      content: 'Access comprehensive documentation for easy guidance on platform usage.'
+      title: '大模型私有化软硬一体',
+      content: '提供相应的硬件部署及大模型搭建支持'
     },
     {
       icon: 'tabler-refresh',
-      title: 'Regular Updates',
-      content: 'Receive consistent updates to keep the platform secure and up-to-date with the latest features.'
+      title: '定制机箱制作',
+      content: '使用工业设计软件制作符合要求的机箱，并进行生产'
     }
   ]
 };

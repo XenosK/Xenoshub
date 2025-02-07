@@ -14,14 +14,14 @@ const MainLayout = dynamic(() => import('@/views/landings/default/layout'));
 export default function AI({ children }) {
   return (
     <ThemeAI>
-      <MainLayout>
+      {/*<MainLayout>*/}
         <>
           {children}
 
           {/* scroll to top section */}
           <ScrollFab />
         </>
-      </MainLayout>
+      {/*</MainLayout>*/}
     </ThemeAI>
   );
 }
