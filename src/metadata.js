@@ -5,7 +5,10 @@ import { PAGE_PATH, SECTION_PATH } from '@/path';
 /***************************  SEO METADATA - MAIN LAYOUT  ***************************/
 
 const title = `${branding.brandName} ${branding.title}`;
-const description = `${branding.brandName} is a cutting-edge software solution designed to revolutionize the way businesses operate. Our platform offers a comprehensive suite of features that enable businesses to streamline their operations, enhance productivity, and drive growth. With ${branding.brandName}, businesses can easily manage their customers, track sales, optimize marketing campaigns, and streamline their internal processes. Whether you're a startup or a large enterprise, ${branding.brandName} has the tools and expertise to help you succeed in today's fast-paced business landscape. Join the ${branding.brandName} community and experience the power of innovative software solutions for business success`;
+const description = `${branding.brandName} 是一种数字软硬件解决方案，旨在彻底改变企业的运营方式。我们的平台提供了一套全面的方案，使企业能够简化运营，提高生产力，推动增长. 
+无论你是初创公司还是大型企业，使用 ${branding.brandName}, 可以轻松管理数据，机房，AI模型建设。, 
+${branding.brandName} 拥有帮助您在当今快节奏的商业环境中取得成功的工具和专业知识. 
+加入 ${branding.brandName} 社区，参与创新软件解决方案对商业建设的工作`;
 
 const ogCommonMetadata = {
   locale: 'en_US',
