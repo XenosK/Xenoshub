@@ -65,7 +65,7 @@ export default [
       'prefer-destructuring': 'off',
       'import/no-extraneous-dependencies': 'off',
       'react/display-name': 'off',
-
+      "no-unused-vars": "off",
       'import/no-unresolved': [
         'off',
         {
