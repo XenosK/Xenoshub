@@ -65,7 +65,6 @@ export default [
       'prefer-destructuring': 'off',
       'import/no-extraneous-dependencies': 'off',
       'react/display-name': 'off',
-      "no-unused-vars": "off",
       'import/no-unresolved': [
         'off',
         {
@@ -81,7 +80,7 @@ export default [
       ],
 
       '@typescript-eslint/no-unused-vars': [
-        'error',
+        'warn',
         {
           vars: 'all',
           args: 'none'
